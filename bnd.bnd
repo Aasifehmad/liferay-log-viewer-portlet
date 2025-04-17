@@ -1,0 +1,12 @@
+Bundle-Name: Liferay Log Viewer
+Bundle-SymbolicName: com.liferay.log.viewer
+Bundle-Version: 1.0.0
+Export-Package:\
+    com.liferay.log.viewer.constants,\
+    com.liferay.log.viewer.portlet.configuration
+-jsp: *.jsp,*.jspf
+-plugin.jsp: com.liferay.ant.bnd.jsp.JspAnalyzerPlugin
+-plugin.resourcebundle: com.liferay.ant.bnd.resource.bundle.ResourceBundleLoaderAnalyzerPlugin
+-plugin.sass: com.liferay.ant.bnd.sass.SassAnalyzerPlugin
+-sass: *
+-metatype: * 
